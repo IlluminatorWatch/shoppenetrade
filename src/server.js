@@ -1,7 +1,6 @@
 // Här ska vi definiera vår server! Men vi ska inte starta den
 // (alltså app.listen(port, ()=>{}), har vi inte i denna fil, utan i index.js)
 const express = require('express')
-const sassMiddleware = require('node-sass-middleware')
 const app = express()
 const port = process.env.PORT || 8080
 const productItem = require('../model/product')
